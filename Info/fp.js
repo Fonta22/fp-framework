@@ -8,5 +8,5 @@ console.log('$$$$$$$$$$$        .$$$$     $$$$                           ');
 console.log('$$$$\'              $$$$$$$$$$$$$                           ');
 console.log('$$$$               $$$$$$$$$P\'                             ');
 console.log('$$$$               $$$$\'                                   ');
-console.log('$$P                $$$P                github.com/Fonta22                     ');
+console.log('$$P                $$$P                github.com/Fonta22/fp-framework                     ');
 console.log('                                                            ');
