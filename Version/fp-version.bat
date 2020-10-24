@@ -1,1 +1,1 @@
-java -cp C:\Users\Pau\Desktop\Developing\Apps\FP\Version; Version
+java -cp C:\Users\Pau\Desktop\Developing\Apps\fp-framework\Version; Version

@@ -1,1 +1,1 @@
-java -cp c:\users\Pau\Desktop\Developing\Apps\FP\ProjectCreator; CreateDir
+java -cp c:\users\Pau\Desktop\Developing\Apps\fp-framework\ProjectCreator; CreateDir
