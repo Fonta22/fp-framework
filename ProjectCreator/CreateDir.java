@@ -5,7 +5,7 @@ import java.io.InputStreamReader;
 
 public class CreateDir {
 
-    //command: fp new-project
+    //command: fp-new-project
 
     static String projName;
     static String dir;
