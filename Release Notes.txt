@@ -1,0 +1,6 @@
+
+Version 1.0: Creates a folder with a name that you introduce with the src folder inside.
+
+Version 1.1: Adds the fp-version command, that shows the actual version.
+
+Version 1.2: Now it creates 2 additional folders inside src: app and assets.

@@ -1,0 +1,12 @@
+console.log('                                                            ');
+console.log('.d$$$$$$$$$$$$$$   d$$$$$$$$$$         fp-framework         ');
+console.log('$$$$$$$$$$$$$$$P   $$$$$$$$$$$$$       ---------------------');
+console.log('$$$$\'              $$$$\'     \'$$$      fp-new-project: create a new project ');
+console.log('$$$$               $$$$       $$$$     fp-version: shows the current version of FP                     ');
+console.log('$$$$$$$$$$b        $$$$       $$$$                          ');
+console.log('$$$$$$$$$$$        .$$$$     $$$$                           ');
+console.log('$$$$\'              $$$$$$$$$$$$$                           ');
+console.log('$$$$               $$$$$$$$$P\'                             ');
+console.log('$$$$               $$$$\'                                   ');
+console.log('$$P                $$$P                github.com/Fonta22                     ');
+console.log('                                                            ');
