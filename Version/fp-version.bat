@@ -1,1 +1,1 @@
-java -cp C:\Users\Pau\Desktop\Developing\Apps\fp-framework\Version; Version
+node C:\Users\Pau\Desktop\Developing\Apps\fp-framework\Version\version.js

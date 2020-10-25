@@ -7,7 +7,7 @@ const title = clc.redBright('fp-framework');
 console.log('                                                            ');
 console.log('.d$$$$$$$$$$$$$$   d$$$$$$$$$$         '+title+'         ');
 console.log('$$$$$$$$$$$$$$$P   $$$$$$$$$$$$$       ---------------------');
-console.log('$$$$\'              $$$$\'     \'$$$      '+commands+': fp-new-project ');
+console.log('$$$$\'              $$$$\'     \'$$$      '+commands+': fp-new-project, fp-version ');
 console.log('$$$$               $$$$       $$$$     '+version+': 1.3                     ');
 console.log('$$$$$$$$$$b        $$$$       $$$$                          ');
 console.log('$$$$$$$$$$$        .$$$$     $$$$                           ');
