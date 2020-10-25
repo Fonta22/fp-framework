@@ -52,8 +52,13 @@ public class CreateDir {
  
         do { 
         
-            System.out.println("Select name: ");
+            System.out.println("Select name: (c to cancel)");
             projName = reader.readLine();
+
+            if (projName.equals("c")) {
+                System.out.println("Canceled successfully.");
+                System.exit(0);
+            }
             
             theDir = new File(dir + "\\" + projName);
 
