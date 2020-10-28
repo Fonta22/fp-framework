@@ -1,0 +1,1 @@
+node C:\Users\Pau\Desktop\Developing\Apps\fp-framework\Info\cominf.js
