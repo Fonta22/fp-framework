@@ -1,3 +1,5 @@
+![](C:\Users\Pau\Desktop\Developing\Apps\fp-framework\assets\fp-logo.png)
+
 # fp-framework
 
 FP is a **JavaScript framework**, mostly made on JavaScript and Java.
