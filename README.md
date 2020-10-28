@@ -1,4 +1,4 @@
-![](C:\Users\Pau\Desktop\Developing\Apps\fp-framework\assets\fp-logo.png)
+![FP logo](C:\Users\Pau\Desktop\Developing\Apps\fp-framework\assets\fp-logo.png)
 
 # fp-framework
 
