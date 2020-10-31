@@ -5,3 +5,5 @@ Version 1.1: Adds the fp-version command, that shows the actual version.
 Version 1.2: Now it creates 2 additional folders inside src: app and assets.
 
 Version 1.3: Added the fp-info command, that shows an interfice with the basic info.
+
+Version 1.4: Added the JavaScript library (npm i fp-framework) v1.1.0
