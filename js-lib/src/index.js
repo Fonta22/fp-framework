@@ -52,11 +52,28 @@ function sort(arr) {
     }
 }
 
-console.log(sort([9,5,7]));
+/**
+ * Returns true or false depending of the number given as argument is prime or not.
+ * 
+ * @param {Number} num The number to evaluate if it's prime or not.
+ * @returns {Boolean} If it's prime or not.
+ */
+function prime(num) {
+    if (num === 0 || num === 1){
+        return false; // Not prime.
+    } 
+    for (let i = 2; i < num / 2; i++) {
+        if (num % i === 0) {
+            return false; // Not prime.
+        }
+    }
+    return true; // Is prime!
+}
 
 module.exports = {
     choice,
     random,
     sleep,
-    sort
+    sort,
+    prime
 }
