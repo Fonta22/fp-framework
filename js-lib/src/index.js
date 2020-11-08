@@ -31,8 +31,32 @@ function choice(arr) {
     return arr[rnd];
 }
 
+/**
+ * Sorts an array given as argument.
+ * 
+ * @param {Array} arr The array to sort.
+ * @returns {Array} The sorted array.
+ */
+function sort(arr) {
+    for(let i = 0; i < arr.length; i++) {
+        for(let j = 0; j < arr.length; j ++) {
+            let pos1 = arr[j];
+            let pos2 = arr[j+1];
+
+            if(arr[j] > arr[j+1]) {
+                arr[j+1] = pos1;
+                arr[j] = pos2;
+            }
+        }
+        return arr;
+    }
+}
+
+console.log(sort([9,5,7]));
+
 module.exports = {
     choice,
     random,
-    sleep
+    sleep,
+    sort
 }
