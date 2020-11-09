@@ -58,7 +58,7 @@ function sort(arr) {
  * @param {Number} num The number to evaluate if it's prime or not.
  * @returns {Boolean} If it's prime or not.
  */
-function prime(num) {
+function isPrime(num) {
     if (num === 0 || num === 1){
         return false; // Not prime.
     } 
@@ -70,10 +70,40 @@ function prime(num) {
     return true; // Is prime!
 }
 
+/**
+ * Given an argument, determinates if it's a number or not.
+ * 
+ * @param {*} x Argument to evaluate if it's a number or not.
+ * @returns {Boolean} If it's a number or not.
+ */
+function isNumber(x) {
+    if(isNaN(x)) {
+        return false;
+    } else {
+        return true;
+    }
+}
+
+/**
+ * Given a number as argument, evaluates if it's decimal or not.
+ * 
+ * @param {Number} num The number to evaluate if it is decimal or not.
+ * @returns {Boolean} If it's decimal or not.
+ */
+function isDecimal(num) {
+    if (num % 1 === 0) {
+        return false;
+    } else {
+        return true;
+    }
+}
+
 module.exports = {
     choice,
     random,
     sleep,
     sort,
-    prime
+    isPrime,
+    isNumber,
+    isDecimal
 }
