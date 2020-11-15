@@ -98,6 +98,25 @@ function isDecimal(num) {
     }
 }
 
+/**
+ * Returns true or false if the target sent on arguments is on thea array or not
+ * 
+ * fp.search(target, array);
+ * 
+ * @param {*} x 
+ * @param {Array} arr 
+ * @returns {Boolean} true / false if the target is on the array.
+ */
+function search(x, arr) {
+    let found;
+    for (let i = 0; i < arr.length; i++) {
+        if (x === arr[i]) {
+            found = true;
+            return found;
+        }
+    } return found = false;
+}
+
 module.exports = {
     choice,
     random,
@@ -105,5 +124,6 @@ module.exports = {
     sort,
     isPrime,
     isNumber,
-    isDecimal
+    isDecimal,
+    search
 }
