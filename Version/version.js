@@ -1,3 +1,4 @@
 const clc = require('cli-color');
-const ver = clc.redBright('Version');
-console.log(ver + ': 1.3');
+const ver = require('../ver.json');
+const text = clc.redBright('Version');
+console.log(text + ': ' + ver.version + '\n');

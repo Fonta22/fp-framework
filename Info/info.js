@@ -1,4 +1,5 @@
 const clc = require('cli-color');
+const ver = require('../ver.json');
 const commands = clc.redBright('Commands');
 const version = clc.redBright('Version');
 const github = clc.redBright('GitHub repo');
@@ -14,6 +15,6 @@ console.log('$$$$$$$$$$b        $$$$       $$$$                                 
 console.log('$$$$$$$$$$$        .$$$$     $$$$                                      ');
 console.log('$$$$\'              $$$$$$$$$$$$$                                      ');
 console.log('$$$$               $$$$$$$$$P\'                                        ');
-console.log('$$$$               $$$$\'               '+version+': 1.3                               ');
+console.log('$$$$               $$$$\'               '+version+': '+ver.version+'                               ');
 console.log('$$P                $$$P                '+github+': github.com/Fonta22/fp-framework');
 console.log('                                                                                   ');
