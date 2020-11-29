@@ -107,7 +107,7 @@ function isDecimal(num) {
  * @param {Array} arr 
  * @returns {Boolean} true / false if the target is on the array.
  */
-function search(x, arr) {
+function numSearch(x, arr) {
     let found;
     for (let i = 0; i < arr.length; i++) {
         if (x === arr[i]) {
@@ -115,6 +115,13 @@ function search(x, arr) {
             return found;
         }
     } return found = false;
+}
+
+function sumArr(arr) {
+    let result = 0;
+    for (let i = 0; i < arr.length; i++) {
+        result += arr[i];
+    } return result;
 }
 
 module.exports = {
@@ -125,5 +132,6 @@ module.exports = {
     isPrime,
     isNumber,
     isDecimal,
-    search
+    numSearch,
+    sumArr
 }
