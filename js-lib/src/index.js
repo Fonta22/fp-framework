@@ -137,6 +137,6 @@ module.exports = {
     isPrime,
     isNumber,
     isDecimal,
-    numSearch,
+    search,
     sumArr
 }
