@@ -99,7 +99,7 @@ function isDecimal(num) {
 }
 
 /**
- * Returns true or false if the target sent on arguments is on thea array or not
+ * Finds if some value is in the array [any type]
  * 
  * fp.search(target, array);
  * 
@@ -107,7 +107,7 @@ function isDecimal(num) {
  * @param {Array} arr 
  * @returns {Boolean} true / false if the target is on the array.
  */
-function numSearch(x, arr) {
+function search(x, arr) {
     let found;
     for (let i = 0; i < arr.length; i++) {
         if (x === arr[i]) {
@@ -117,6 +117,11 @@ function numSearch(x, arr) {
     } return found = false;
 }
 
+/**
+ * Sums all the numbers of an array. fp.sumArr([1, 2, 3]) => 6
+ * 
+ * @param {Array} arr Array of numbers to sum
+ */
 function sumArr(arr) {
     let result = 0;
     for (let i = 0; i < arr.length; i++) {
