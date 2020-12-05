@@ -129,6 +129,29 @@ function sumArr(arr) {
     } return result;
 }
 
+/**
+ * Splits the words of a string and returns an array of the split words
+ * 
+ * @param {String} phrase String to split the words of
+ * @returns {Array} Array of the split words
+ */
+function splitWords(phrase) {
+    let words = [];
+    let word;
+    let lastSpace = 0;
+    for (let i = 0; i < phrase.length; i++) {
+        if (phrase[i] === ' ') {
+            word = phrase.slice(lastSpace, i);
+            words.push(word);
+            lastSpace = i + 1;
+        }
+    }
+    // Push last word
+    word = phrase.slice(lastSpace, phrase.length);
+    words.push(word);
+    return words;
+}
+
 module.exports = {
     choice,
     random,
@@ -138,5 +161,6 @@ module.exports = {
     isNumber,
     isDecimal,
     search,
-    sumArr
+    sumArr,
+    splitWords
 }

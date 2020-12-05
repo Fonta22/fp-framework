@@ -1,20 +1,20 @@
 {
-  "name": "fp-framework",
-  "version": "1.2.5",
-  "description": "JavaScript library of FP.",
-  "main": "src/index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "repository": {
-    "type" : "git",
-    "url" : "https://github.com/Fonta22/fp-framework",
-    "directory": "fp-framework/js-lib"
-  },
-  "dependencies": {
-    "jsdoc": "3.6.6"
-  }
+    "name": "fp-framework",
+    "version": "1.2.7",
+    "description": "JavaScript library of FP.",
+    "main": "src/index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Fonta22/fp-framework",
+        "directory": "fp-framework/js-lib"
+    },
+    "dependencies": {
+        "jsdoc": "3.6.6"
+    }
 }
