@@ -152,6 +152,29 @@ function splitWords(phrase) {
     return words;
 }
 
+
+/**
+ * Divide the array into a bidimensional array
+ * 
+ * @param {Array} arr 
+ * @param {Number} n 
+ * @returns {Array} bidimensional array
+ */
+
+function groupArr(arr, n) {
+  
+    let newArr = [];
+  
+      for (let i = 0; i < arr.length; i += n) {
+  
+          let childArr = arr.slice(i, i + n);
+          newArr.push(childArr)
+      }
+      
+      return newArr;
+  
+}
+
 module.exports = {
     choice,
     random,
@@ -162,5 +185,6 @@ module.exports = {
     isDecimal,
     search,
     sumArr,
-    splitWords
+    splitWords,
+    groupArr
 }
